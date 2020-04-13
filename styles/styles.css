@@ -1,0 +1,9 @@
+#content-wrapper {
+    margin: 0 auto;
+    min-width: 980px;
+    min-width: 1139px;
+}
+
+#logo {
+    padding-top: 109px;
+}
