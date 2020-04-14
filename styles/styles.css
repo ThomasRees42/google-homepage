@@ -15,6 +15,9 @@ footer {
     display: flex;
     flex-direction: row;
     align-items: center;
+}
+
+#top {
     margin-top: 15px;
     justify-content: space-between;
     margin-left: 20px;
@@ -37,7 +40,7 @@ footer {
     background-color: black;
 }
 
-a {
+.flex-item {
     font-family: arial,sans-serif;
     font-size: 13px;
     color: #000;
@@ -45,7 +48,7 @@ a {
     text-decoration: none;
 }
 
-a:hover {
+.flex-item:hover {
     text-decoration: underline;
 }
 
@@ -74,4 +77,42 @@ a:hover {
 
 .flex-6:hover {
     text-decoration: none;
+}
+
+#searchbar {
+    width: 484px;
+    height: 44px;
+    border: 1px solid #cdcfd3;
+    border-radius: 24px;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+#searchbar:hover {
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+}
+
+#input {
+    width: 387px;
+    height: 34px;
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: rgba(0,0,0,.87);
+    word-wrap: break-word;
+    outline: none;
+}
+
+#voice {
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+#search {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
 }
