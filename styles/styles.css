@@ -46,13 +46,14 @@ footer {
     color: #000;
     opacity: 0.75;
     text-decoration: none;
+    flex-shrink: 0;
 }
 
 .flex-item:hover {
     text-decoration: underline;
 }
 
-.flex-2 {
+#flex-2 {
     margin-right: 800px;
 }
 
@@ -64,7 +65,7 @@ footer {
     position: relative;
 }
 
-.flex-6 {
+#flex-6 {
     color: #ffffff;
     font-weight: bold;
     position: absolute;
@@ -75,7 +76,7 @@ footer {
     opacity: 1;
 }
 
-.flex-6:hover {
+#flex-6:hover {
     text-decoration: none;
 }
 
@@ -145,4 +146,47 @@ button:hover {
     background-color: #f8f8f8;
     border: 1px solid #c6c6c6;
     color: #222;
+}
+
+footer {
+    display: block;
+    bottom: 0;
+    font-size: 10pt;
+    height: 35px;
+    position: fixed;
+    width: 100%;
+    background: #f2f2f2;
+    line-height: 40px;
+    min-width: 980px;
+    border-top: 1px solid #e4e4e4;
+    left: 0px;
+}
+
+#flex-7 {
+    margin-left: 20px;
+}
+
+#flex-8 {
+    margin-left: 20px;
+}
+
+#flex-9 {
+    margin-left: 20px;
+}
+
+#flex-10 {
+    margin-left: 800px;
+}
+
+#flex-11 {
+    margin-left: 20px;
+}
+
+#flex-12 {
+    margin-left: 20px;
+}
+
+#bottom {
+    color: #5f6368;
+    font-size: 14px;
 }
